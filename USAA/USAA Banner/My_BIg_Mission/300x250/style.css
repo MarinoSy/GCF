@@ -1,0 +1,385 @@
+@charset "UTF-8";
+.banner {
+  background: #12395b;
+  overflow: hidden;
+  display: block !important;
+}
+#btnExit {
+  cursor: pointer;
+  opacity: 0;
+}
+.bannerSize {
+  width: 300px;
+  height: 250px;
+}
+#yellowline{
+  background-color: #fac705;
+  width: 191px;
+  height: 10px;
+  top: 0px;
+  left: 50%;
+  translate: -50%;
+}
+#bg01 {
+  background-image: url("img/bg01.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 300px;
+  height: 250px;
+  opacity: 1;
+  animation: bg01;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+@keyframes bg01 {
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+
+}
+#overlay01 {
+  background-image: url("img/overlay01.png");
+  background-position: -30px center;
+  background-repeat: no-repeat;
+  background-size: 115%;
+  width: 300px;
+  height: 250px;
+  opacity: 1;
+  animation: overlay01;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+@keyframes overlay01 {
+  0% {
+    background-position: -30px center;
+  }
+  90% {
+    opacity: 1;
+  }
+  95% {
+    background-position: -45px center;
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+#overlay02 {
+  background-image: url("img/overlay02.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 300px;
+  height: 250px;
+  opacity: 1;
+  animation: overlay02;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+@keyframes overlay02 {
+  90% {
+    opacity: 1;
+  }
+  95% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+#overlay03 {
+  background-image: url("img/overlay03.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 300px;
+  height: 250px;
+  opacity: 1;
+  animation: overlay03;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+@keyframes overlay03 {
+  0% {
+    background-position: 0px center;
+  }
+  90% {
+    opacity: 1;
+  }
+  95% {
+    opacity: 0;
+  }
+  100% {
+    background-position: -15px center;
+    opacity: 0;
+  }
+}
+#overlay04 {
+  background-image: url("img/overlay04.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 300px;
+  height: 250px;
+  opacity: 1;
+  animation: overlay04;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+@keyframes overlay04 {
+  0% {
+    background-position: -30px center;
+  }
+  90% {
+    opacity: 1;
+  }
+  99% {
+    opacity: .2;
+  }
+  100% {
+    background-position: 0px center;
+    opacity: 0;
+  }
+}
+#overlay05 {
+  background: #12395b;
+  width: 300px;
+  height: 250px;
+  opacity: 0;
+  animation: overlay05;
+  animation-delay: 2.25s;
+  animation-duration: .5s;
+  animation-fill-mode: forwards;
+}
+@keyframes overlay05 {
+  0% {
+    opactiy: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+#copy01 {
+  background-image: url("img/copy01.svg");
+  background-position: -80px -35px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 300px;
+  height: 250px;
+  opacity: 0;
+  animation: copy01;
+  animation-duration: 4.5s;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier();
+}
+@keyframes copy01 {
+  10% {
+    background-position: -40px -35px;
+    opacity: 1;
+    animation-timing-function: linear;
+  }
+  95% {
+    background-position: 10px -35px;
+    opacity: 1;
+  }
+  100% {
+    background-position: 100px -35px;
+    opacity: 0;
+  }
+}
+#copy02 {
+  background-image: url("img/copy02.svg");
+  background-position: 50px -35px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 300px;
+  height: 250px;
+  opacity: 0;
+  animation: copy02;
+  animation-delay: 2s;
+  animation-duration: 2.5s;
+  animation-fill-mode: forwards;
+}
+@keyframes copy02 {
+  0% {
+    background-position: 250px -35px;
+  }
+  30% {
+    background-position: 5px -35px;
+    opacity: 1;
+    animation-timing-function: linear;
+  }
+  90% {
+    background-position: -20px -35px;
+    opacity: 1;
+    animation-timing-function: linear;
+  }
+  100% {
+    background-position: -100px -35px;
+    opacity: 0;
+    animation-timing-function: linear;
+  }
+}
+#copy03 {
+  background-image: url("img/copy03.svg");
+  background-position: center -35px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 300px;
+  height: 250px;
+  opacity: 0;
+  animation: copy03Enter;
+  animation-delay: 2s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+@keyframes copy03Enter {
+  0% {
+    background-position: center -35px;
+  }
+  100% {
+    background-position: center center;
+    opacity: 1;
+  }
+}
+#copy04 {
+  background-image: url("img/copy04.svg");
+  background-position: -200px -35px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 300px;
+  height: 250px;
+  opacity: 0;
+  animation: copy04Enter;
+  animation-delay: 5s;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+@keyframes copy04Enter {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    background-position: -10px -35px;
+    opacity: 1;
+    animation-timing-function: linear;
+  }
+  80% {
+    background-position: 10px -35px;
+    opacity: 1;
+    animation-timing-function: cubic-bezier();
+  }
+  100% {
+    background-position: 200px -35px;
+    opacity: 0;
+  }
+}
+#copy05 {
+  background-image: url("img/copy05.svg");
+  background-position: 200px -35px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 300px;
+  height: 250px;
+  opacity: 0;
+  animation: copy05Enter;
+  animation-delay: 5s;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+@keyframes copy05Enter {
+  0% {
+    background-position: 200px -35px;
+  }
+  20% {
+    background-position: 10px -35px;
+    opacity: 1;
+    animation-timing-function: linear;
+  }
+  80% {
+    background-position: -10px -35px;
+    opacity: 1;
+    animation-timing-function: cubic-bezier();
+  }
+  100% {
+    background-position: -200px -35px;
+    opacity: 0;
+  }
+}
+#logo01 {
+  background-image: url("img/logo01.svg");
+  background-position: center 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 300px;
+  height: 250px;
+  opacity: 0;
+  animation: logo01Enter;
+  animation-delay: 8.5s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+@keyframes logo01Enter {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+#copy06 {
+  background-image: url("img/copy06.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 300px;
+  height: 250px;
+  opacity: 0;
+  animation: copy06Enter;
+  animation-delay: 9.5s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+@keyframes copy06Enter {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+#cta01 {
+  background-color: #fff;
+  background-image: url("img/btncopy01.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 134px;
+  height: 40px;
+  bottom: -40px;
+  left: 50%;
+  translate: -50%;
+  border-radius: 2px;
+  opacity: 0;
+  animation: cta01Enter;
+  animation-delay: 10.5s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  transition: all .7s;
+}
+#banner:hover #cta01 {
+  background-color: #fac705;
+}
+@keyframes cta01Enter {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    bottom: 25px;
+    opacity: 1;
+  }
+}

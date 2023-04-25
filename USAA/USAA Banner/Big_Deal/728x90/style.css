@@ -1,0 +1,240 @@
+@charset "UTF-8";
+.banner {
+  background: #12395b;
+  overflow: hidden;
+  display: block !important;
+}
+#btnExit {
+  cursor: pointer;
+  opacity: 0;
+}
+.bannerSize {
+  width: 728px;
+  height: 90px;
+}
+#yellowline{
+  background-color: #fac705;
+  width: 174px;
+  height: 6px;
+  top: 0px;
+  left: 50%;
+  translate: -50%;
+}
+#copy01 {
+  background-image: url("img/copy01.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+#logo01 {
+  background-image: url("img/logo01.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.imgDim {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 180px;
+  height: 90px;
+  right: 0px;
+  width: 140px;
+  height: 90px;
+  right: 0px;
+}
+#bg01 {
+  background-image: url("img/bg01.jpg");
+  background-position: 0px 0px;
+  background-size: 115%;
+  animation-name: bg01;
+  animation-duration: 10s;
+  animation-fill-mode: forwards;
+}
+@keyframes bg01 {
+  0% {
+    background-position: 0px 0px;
+  }
+  100% {
+    background-position: -15px 0px;
+  }
+}
+#overlay01 {
+  background-image: url("img/overlay01.png");
+  background-position: 15px 15px;
+  background-size: 90%;
+  animation-name: overlay01;
+  animation-duration: 10s;
+  animation-fill-mode: forwards;
+}
+@keyframes overlay01 {
+  0% {
+    background-position: -20px 10px;
+  }
+  100% {
+    background-position: 20px 10px;
+  }
+}
+#copy02 {
+  background-image: url("img/copy02.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0;
+  animation-name: copy02;
+  animation-duration: 6s;
+  animation-fill-mode: forwards;
+}
+@keyframes copy02 {
+  0% {
+    background-position: 400px center;
+  }
+  33.34% {
+    background-position: center;
+    opacity: 1;
+  }
+  66.67% {
+    background-position: center;
+    opacity: 1;
+  }
+  100% {
+    background-position: 400px center;
+  }
+}
+#copy03 {
+  background-image: url("img/copy03.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0;
+  animation-name: copy03;
+  animation-delay: 1s;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+}
+@keyframes copy03 {
+  0% {
+    background-position: 400px center;
+  }
+  40% {
+    background-position: center;
+    opacity: 1;
+  }
+  65% {
+    background-position: center;
+    opacity: 1;
+  }
+  100% {
+    background-position: 300px center;
+  }
+}
+#copy04 {
+  background-image: url("img/copy04.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0;
+  animation-name: copy04;
+  animation-delay: 5.5s;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+@keyframes copy04 {
+  0% {
+    background-position: 400px center;
+  }
+  100% {
+    background-position: center;
+    opacity: 1;
+  }
+}
+#copy05 {
+  background-image: url("img/copy05.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0;
+  animation-name: copy05;
+  animation-delay: 5.75s;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+@keyframes copy05 {
+  0% {
+    background-position: 400px center;
+  }
+  100% {
+    background-position: center;
+    opacity: 1;
+  }
+}
+#overlay02 {
+  background-color: #12395b;
+  width: 100%;
+  height: 160px;
+  top: -30px;
+  left: -100%;
+  box-shadow: 35px 0px 30px #12395b;
+  animation-name: overlay02;
+  animation-delay: 8.5s;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+}
+@keyframes overlay02 {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 0%;
+  }
+}
+#copy06 {
+  background-image: url("img/copy06.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0;
+  animation-name: copy06;
+  animation-delay: 10s;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+}
+@keyframes copy06 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+#cta01 {
+  background-color: #fff;
+  background-image: url("img/btncopy01.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 70px;
+  width: 134px;
+  height: 40px;
+  top: 25px;
+  right: 0px;
+  border-radius: 2px;
+  transition: background-color .7s;
+  opacity: 0;
+  animation-name: cta01;
+  animation-delay: 10s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+#banner:hover #cta01 {
+  background-color: #fac705;
+}
+@keyframes cta01 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    right: 25px;
+    opacity: 1;
+  }
+}
